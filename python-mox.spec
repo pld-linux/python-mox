@@ -40,15 +40,12 @@ obiektów-atrap przy użyciu specjalizowanego języka (DSL), który jest
 %setup -q -n mox-%{version}
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--skip-build \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 %py_postclean
 
