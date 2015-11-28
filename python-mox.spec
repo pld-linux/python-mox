@@ -2,7 +2,7 @@ Summary:	Mox - mock object framework for Python
 Summary(pl.UTF-8):	Mox - szkielet obiektów-atrap dla Pythona
 Name:		python-mox
 Version:	0.5.3
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: http://code.google.com/p/pymox/downloads/list
