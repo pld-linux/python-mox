@@ -11,7 +11,7 @@ Source0:	http://pymox.googlecode.com/files/mox-%{version}.tar.gz
 URL:		http://code.google.com/p/pymox/
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules >= 1:2.4
 Obsoletes:	python-pymox
 BuildArch:	noarch
